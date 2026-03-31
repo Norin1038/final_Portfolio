@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norin Fatima - Web Develpoer</title>
+    <link rel="stylesheet" href="./stylesheet.css?v=20260325">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+        <nav>
+            <div class="nav-brand">Norin Fatima</div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section id="home" class="hero">
+            <div class="hero-left">
+                <p class="hero-greeting">Hi, my name is</p>
+                <h1 class="hero-name"><span class="purple">Norin Fatima</span></h1>
+                <p class="hero-subtitle">and I am a</p>
+                <span id="element"></span>
+                <div class="hero-buttons">
+                    <a href="https://www.linkedin.com/in/norin-fatima-7a21a13b7?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        target="_blank" class="btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/Norin1038" target="_blank" class="btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="CV.pdf" target="_blank" class="btn">
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+                    <a href="mailto:bsitf24m21@bgnu.edu.pk" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Hire Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="bg.png" alt="Norin Fatima">
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- ===== ABOUT ===== -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        I am Norin Fatima, an IT student and passionate learner. I am skilled in
+                        <strong>Web Development</strong> and can build responsive websites using HTML, CSS, and
+                        JavaScript.
+                        I also have good command in <strong>C/C++ programming</strong> and problem-solving.
+                    </p>
+                    <br>
+                    <p>
+                        I am an <strong>MS Office Expert</strong> and can efficiently handle documentation,
+                        presentations,
+                        and data-related tasks. I also have basic knowledge of <strong>SEO (Search Engine
+                            Optimization)</strong>.
+                    </p>
+                    <br>
+                    <p>
+                        Additionally, I have some knowledge of <strong>Python for Machine Learning</strong>.
+                        I am continuously learning new technologies and improving my skills to grow as a professional
+                        developer.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Manawala, Punjab, Pakistan</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bsitf24m21@bgnu.edu.pk</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+92 329 7477639</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- ===== SERVICES ===== -->
+        <section id="services" class="section">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p class="service-desc">End-to-end development of responsive, feature-rich web applications tailored
+                        to your needs.</p>
+                    <ul class="service-features">
+                        <li>Responsive, mobile-first front-end</li>
+                        <li>E-commerce &amp; portal solutions</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database Design &amp; Engineering</h3>
+                    <p class="service-desc">Efficient, reliable database architecture and query optimization for
+                        enterprise applications.</p>
+                    <ul class="service-features">
+                        <li>Query optimization &amp; indexing</li>
+                        <li>Data modeling &amp; normalization</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning &amp; AI</h3>
+                    <p class="service-desc">Intelligent, data-driven solutions leveraging modern machine learning
+                        techniques and frameworks.</p>
+                    <ul class="service-features">
+                        <li>Model training &amp; evaluation (Python, Scikit-learn)</li>
+                        <li>Data analysis &amp; preprocessing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-file-word"></i></div>
+                    <h3>MS Office Expert</h3>
+                    <p class="service-desc">
+                        Skilled in using Microsoft Office tools for creating professional documents, presentations, and
+                        managing data efficiently.
+                    </p>
+                    <ul class="service-features">
+                        <li>MS Word (Documentation & Formatting)</li>
+                        <li>MS PowerPoint (Presentations)</li>
+                        <li>MS Excel (Data Handling & Basics)</li>
+                        <li>File Management & Reporting</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>C / C++ Developer</h3>
+                    <p class="service-desc">
+                        Skilled in building efficient, high-performance applications using C and C++ with strong
+                        problem-solving abilities.
+                    </p>
+                    <ul class="service-features">
+                        <li>Strong fundamentals of C & C++</li>
+                        <li>Object-Oriented Programming (OOP)</li>
+                        <li>Data Structures & Algorithms</li>
+                        <li>File Handling & Memory Management</li>
+                        <li>Problem Solving & Logic Building</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- ===== EXPERIENCE ===== -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+
+                <!-- Home Tutor -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3>Home Tutor</h3>
+                            <span class="company">Self-Employed</span>
+                            <span class="duration">2022 – Present &middot; Pakistan</span>
+                        </div>
+                        <ul class="timeline-desc">
+                            <li>Provided home tuition to school students in core subjects.</li>
+                            <li>Helped students improve academic performance and understanding.</li>
+                            <li>Developed customized lesson plans based on student needs.</li>
+                            <li>Improved students’ confidence and problem-solving skills.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Teaching</span><span>Communication</span><span>Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MS Office Instructor -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3>MS Office Instructor</h3>
+                            <span class="company">Private Coaching</span>
+                            <span class="duration">2025 – Present &middot; Pakistan</span>
+                        </div>
+                        <ul class="timeline-desc">
+                            <li>Taught students Microsoft Word, Excel, and PowerPoint.</li>
+                            <li>Guided students in creating documents, presentations, and spreadsheets.</li>
+                            <li>Improved students' digital literacy and practical computer skills.</li>
+                            <li>Provided hands-on training with real-life tasks and assignments.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>MS Word</span><span>MS Excel</span><span>PowerPoint</span>
+                            <span>MS Access</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- ===== SKILLS ===== -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills &amp; Tools</h2>
+            <div class="skills-grid">
+
+                <div class="skills-card">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>PHP</span>
+                        <span>C/C++</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span>Xampp Server</span>
+                        <span>Database Design</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3><i class="fas fa-drafting-compass"></i> Architecture &amp; Design</h3>
+                    <div class="skill-tags">
+                        <span>Clean Architecture</span>
+                        <span>Design Patterns</span><span>OOP</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3><i class="fas fa-tools"></i> Tools &amp; DevOps</h3>
+                    <div class="skill-tags">
+                        <span>Git</span><span>GitHub</span><span>Ms Word</span>
+                        <span>Visual Studio</span><span>MS Excel</span><span>Ms power point</span>
+                        <span>Ms Acces</span><span>Google Docs</span><span>emulator</span><span>Dev C++</span>
+                        <span>OBS Studio</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3><i class="fas fa-users"></i> Practices &amp; Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span>Problem-Solving</span><span>Teamwork</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <div class="timeline">
+
+            <!-- Restaurant Reservation System -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <h3>Restaurant Reservation System (DLD Project)</h3>
+                        <span class="duration">2024</span>
+                    </div>
+                    <ul class="timeline-desc">
+                        <li>Designed and developed a smart restaurant reservation system.</li>
+                        <li>Integrated automatic car parking system for efficient vehicle management.</li>
+                        <li>Implemented a water purifying system for improved service quality.</li>
+                        <li>Focused on digital logic design concepts and real-world automation.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span>Digital Logic Design</span><span>Automation</span><span>Embedded Concepts</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FYP Management System -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <h3>FYP Management System</h3>
+                        <span class="duration">2025</span>
+                    </div>
+                    <ul class="timeline-desc">
+                        <li>Developed a system for managing Final Year Project (FYP) processes.</li>
+                        <li>Students can send requests to supervisors for project approval.</li>
+                        <li>Supervisors can review and select students based on requests.</li>
+                        <li>HOD can monitor all student-supervisor assignments.</li>
+                        <li>Improved communication and streamlined project allocation.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span>Web Development</span><span>Database</span><span>System Design</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                    <div class="timeline-header">
+                        <h3>Crop Management Database System (DBMS Project)</h3>
+                        <span class="duration">2025</span>
+                    </div>
+                    <ul class="timeline-desc">
+                        <li>Designed and developed a database system for managing agricultural data.</li>
+                        <li>Farmers can store and manage information about crops, seasons, fertilizers, and fields.</li>
+                        <li>Implemented structured database design with relationships between entities.</li>
+                        <li>Enabled efficient tracking of plantation and crop production details.</li>
+                        <li>Improved data organization and decision-making for farming activities.</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span>DBMS</span><span>php</span><span>Database Design</span><span>Data Management</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </section>
+
+        <hr>
+
+        <!-- ===== CERTIFICATIONS ===== -->
+<section id="certifications" class="section">
+    <h2 class="section-title">Certifications</h2>
+    <div class="certs-grid">
+
+        <!-- DigiSkills -->
+        <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-search"></i></div>
+            <div class="cert-info">
+                <h3>SEO & Freelancing Certification</h3>
+                <span class="cert-issuer">DigiSkills.pk</span>
+                <span class="cert-date">2025</span>
+            </div>
+        </div>
+
+        <!-- TEVTA -->
+        <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-file-word"></i></div>
+            <div class="cert-info">
+                <h3>MS Office Certification</h3>
+                <span class="cert-issuer">TEVTA</span>
+                <span class="cert-date">2025</span>
+            </div>
+        </div>
+
+        <!-- AI & ML -->
+        <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-brain"></i></div>
+            <div class="cert-info">
+                <h3>Artificial Intelligence & Machine Learning</h3>
+                <span class="cert-issuer">International Certification (India)</span>
+                <span class="cert-date">2026</span>
+            </div>
+        </div>
+
+        <!-- Math Competition -->
+        <div class="cert-card">
+            <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+            <div class="cert-info">
+                <h3>Math Quiz Competition</h3>
+                <span class="cert-issuer">BGNU</span>
+                <span class="cert-date">2026</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+        <hr>
+
+        <!-- ===== EDUCATION ===== -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="edu-timeline">
+
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="edu-info">
+                        <h3>Bachelor of Information and Technology</h3>
+                        <span class="edu-institution">Baba Guru Nanak University Nankana Sahib</span>
+                        <span class="edu-duration">2024 –  2028</span>
+                        <span class="edu-grade">CGPA: 3.47/ 4.0</span>
+                        <p class="edu-subjects">
+                            Software Design &amp; Architecture &middot; Database Systems &middot;
+                            Operating Systems &middot; Distributed Systems &middot;
+                            Software Quality Assurance &middot; Data Structures &amp; Algorithms &middot; DevOps
+                        </p>
+                    </div>
+                </div>
+
+                <div class="edu-card">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <div class="edu-info">
+                        <h3>FSc, ICS</h3>
+                        <span class="edu-institution">Superior Collage Manawala</span>
+                        <span class="edu-duration">2022 – 2024</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-grid">
+
+                <a href="https://github.com/Norin1038" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/norinfatima</span>
+                </a>
+
+                <a href="mailto:bsitf24m21@bgnu.edu.pk" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>bsitf24m21@bgnu.edu.pk</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/norin-fatima/" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>Norin Fatima </span>
+                </a>
+
+                <a href="https://wa.me/+923297477639" target="_blank" class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>+92 329 7477639</span>
+                </a>
+
+                <a href="https://web.facebook.com/profile.php?id=61575602324779" target="_blank" class="contact-card">
+                    <i class="fab fa-facebook"></i>
+                    <span>Norin Rajpoot</span>
+                </a>
+
+                <a href="https://www.instagram.com/muhammadsaleem30732024?igsh=NXQzYWN6emI0bjR2" target="_blank" class="contact-card">
+                    <i class="fab fa-instagram"></i>
+                    <span>muhammadsaleem30732024</span>
+                </a>
+
+                <div class="contact-card no-link">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Manawala, Punjab, Pakistan</span>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-rights">
+            Copyright &copy; 2026 Norin Fatima &nbsp;|&nbsp; All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [
+                 'Web Developer',
+                'C/C++ Developer',
+                'Database Designer',
+                'SEO',
+                'MS Office Expert'
+            ],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true,
+        });
+    </script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('open');
+        }
+        document.querySelectorAll('.nav-links a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                document.getElementById('navLinks').classList.remove('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
